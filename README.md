@@ -4,7 +4,7 @@
 使用了Objective-C以及Swift4两种方式来实现。
 
 
-*Objective-C：
+* Objective-C：
 
 ```
 NSString *numRegex = @"^(0|[1-9][0-9]*)$";
@@ -31,7 +31,7 @@ return [numPredicate evaluateWithObject:resultString];
 
 ```
 
-*Swift4
+* Swift4
 
 ```
 var numRegex = "^(0|[1-9][0-9]*)$"
