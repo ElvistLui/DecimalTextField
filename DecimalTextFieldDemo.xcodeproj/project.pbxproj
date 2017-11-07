@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D72F22F1FA7103F00DED5E2 /* DecimalNumHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D72F22E1FA7103F00DED5E2 /* DecimalNumHelper.m */; };
+		1D72F2321FA7155300DED5E2 /* DecimalNumHelper-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D72F2311FA7155300DED5E2 /* DecimalNumHelper-Swift.swift */; };
 		B4CD18F11DBDB6FB005B8491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CD18F01DBDB6FB005B8491 /* main.m */; };
 		B4CD18F41DBDB6FC005B8491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CD18F31DBDB6FC005B8491 /* AppDelegate.m */; };
 		B4CD18F71DBDB6FC005B8491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CD18F61DBDB6FC005B8491 /* ViewController.m */; };
 		B4CD18FA1DBDB6FC005B8491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CD18F81DBDB6FC005B8491 /* Main.storyboard */; };
 		B4CD18FC1DBDB6FC005B8491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CD18FB1DBDB6FC005B8491 /* Assets.xcassets */; };
 		B4CD18FF1DBDB6FC005B8491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CD18FD1DBDB6FC005B8491 /* LaunchScreen.storyboard */; };
-		B4CD19091DBDBACC005B8491 /* DecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CD19081DBDBACC005B8491 /* DecimalTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D72F22D1FA7103F00DED5E2 /* DecimalNumHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalNumHelper.h; sourceTree = "<group>"; };
+		1D72F22E1FA7103F00DED5E2 /* DecimalNumHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalNumHelper.m; sourceTree = "<group>"; };
+		1D72F2301FA7155300DED5E2 /* DecimalTextFieldDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DecimalTextFieldDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D72F2311FA7155300DED5E2 /* DecimalNumHelper-Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DecimalNumHelper-Swift.swift"; sourceTree = "<group>"; };
 		B4CD18EC1DBDB6FB005B8491 /* DecimalTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecimalTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CD18F01DBDB6FB005B8491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4CD18F21DBDB6FB005B8491 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +32,6 @@
 		B4CD18FB1DBDB6FC005B8491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4CD18FE1DBDB6FC005B8491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4CD19001DBDB6FC005B8491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4CD19071DBDBACC005B8491 /* DecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecimalTextField.h; sourceTree = "<group>"; };
-		B4CD19081DBDBACC005B8491 /* DecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecimalTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D72F22C1FA7103700DED5E2 /* DecimalNumHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1D72F22D1FA7103F00DED5E2 /* DecimalNumHelper.h */,
+				1D72F22E1FA7103F00DED5E2 /* DecimalNumHelper.m */,
+				1D72F2311FA7155300DED5E2 /* DecimalNumHelper-Swift.swift */,
+				1D72F2301FA7155300DED5E2 /* DecimalTextFieldDemo-Bridging-Header.h */,
+			);
+			path = DecimalNumHelper;
+			sourceTree = "<group>";
+		};
 		B4CD18E31DBDB6FB005B8491 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +75,7 @@
 		B4CD18EE1DBDB6FB005B8491 /* DecimalTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B4CD19061DBDBA9F005B8491 /* DecimalTextField */,
+				1D72F22C1FA7103700DED5E2 /* DecimalNumHelper */,
 				B4CD18F21DBDB6FB005B8491 /* AppDelegate.h */,
 				B4CD18F31DBDB6FC005B8491 /* AppDelegate.m */,
 				B4CD18F51DBDB6FC005B8491 /* ViewController.h */,
@@ -81,15 +95,6 @@
 				B4CD18F01DBDB6FB005B8491 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B4CD19061DBDBA9F005B8491 /* DecimalTextField */ = {
-			isa = PBXGroup;
-			children = (
-				B4CD19071DBDBACC005B8491 /* DecimalTextField.h */,
-				B4CD19081DBDBACC005B8491 /* DecimalTextField.m */,
-			);
-			path = DecimalTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +128,7 @@
 				TargetAttributes = {
 					B4CD18EB1DBDB6FB005B8491 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -163,8 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D72F22F1FA7103F00DED5E2 /* DecimalNumHelper.m in Sources */,
+				1D72F2321FA7155300DED5E2 /* DecimalNumHelper-Swift.swift in Sources */,
 				B4CD18F71DBDB6FC005B8491 /* ViewController.m in Sources */,
-				B4CD19091DBDBACC005B8491 /* DecimalTextField.m in Sources */,
 				B4CD18F41DBDB6FC005B8491 /* AppDelegate.m in Sources */,
 				B4CD18F11DBDB6FB005B8491 /* main.m in Sources */,
 			);
@@ -216,6 +223,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -235,6 +243,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = DecimalTextFieldDemo;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -263,6 +272,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -275,6 +285,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = DecimalTextFieldDemo;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -284,11 +295,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = DecimalTextFieldDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lui.DecimalTextFieldDemo;
+				PRODUCT_MODULE_NAME = DecimalTextFieldDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DecimalTextFieldDemo/DecimalNumHelper/DecimalTextFieldDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -296,11 +313,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = DecimalTextFieldDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lui.DecimalTextFieldDemo;
+				PRODUCT_MODULE_NAME = DecimalTextFieldDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DecimalTextFieldDemo/DecimalNumHelper/DecimalTextFieldDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -323,6 +345,7 @@
 				B4CD19051DBDB6FC005B8491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
